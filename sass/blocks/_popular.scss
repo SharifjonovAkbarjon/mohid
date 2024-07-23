@@ -1,0 +1,111 @@
+.popular{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -320px;
+    margin-bottom: 35px;
+}
+
+.popular__body{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    .popular__heading{
+        display: flex;
+
+        p{
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0.04em;
+        }
+    }
+
+    .popular__Card{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        .cards{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            border: 4px solid #ddd;
+            padding: 24px 18px;
+            box-shadow: 0 0 4px 4px #0004;
+            border-radius: 10px;
+            background: rgb(255,255,255);
+            .card__title{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                p, span{
+                    font-family: Poppins;
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 36px;
+                    letter-spacing: 0.04em;
+                    color: rgba(47, 33, 5, 1);
+
+                }
+
+            }
+
+            .card__buttons{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .btns{
+                    display: flex;
+                    gap: 24px;
+
+                    button{
+                        padding: 6px 17px;
+                        border-radius: 8px;
+                        border: 2px solid rgba(255, 210, 143, 1);
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        letter-spacing: 0.04em;
+                        text-align: center;
+                        color: rgba(255, 210, 143, 1);
+                        background: transparent;
+                        transition: .7s;
+
+                        &:hover{
+                            cursor: pointer;
+                            border: 2px solid rgba(255, 144, 43, 1);
+                            color: rgba(255, 144, 43, 1);
+                        }
+                    }
+                }
+
+                .icons{
+                    display: flex;
+                    padding: 13px  12.5px;
+                    background: rgba(255, 144, 43, 1);
+                    border-radius: 50%;
+                }
+            }
+        }   
+    }
+}
+
+.popular__img{
+    display: flex;
+    justify-content: center;
+    margin-top: -280px;
+    
+    .images{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
