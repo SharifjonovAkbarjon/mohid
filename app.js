@@ -82,7 +82,7 @@ function createCategory(data) {
         let list = document.createElement("li");
         list.className = "item";
         list.innerHTML = `
-            <data value="/category/${category}">${category}</data>
+          
         `;
         collection.appendChild(list);
     });
